@@ -5,7 +5,7 @@ import Schedule from './components/Schedule'
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"aureccenter.github.io"}>
     <div className="App">
     </div>
     <Route exact path="/" component={Home}/>
